@@ -6,58 +6,62 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 > **Demystifying Legal Documents with Generative AI**  
-> LegalEase-AI is an AI-powered tool to summarize, question, and highlight PDF/TXT legal documents for faster understanding.
+> LegalEase-AI is a sleek AI-powered tool to **summarize, question, and highlight PDF/TXT legal documents** for faster understanding and efficient document handling.
 
 ---
 
-## 🔗 Live Demo
-Check out the working demo on Hugging Face Spaces:  
-[**LegalEase-AI Live**](https://huggingface.co/spaces/Bikashkh/legalease-ai)
+## 🚀 Live Demo
+Experience the AI in action:  
+[**🎯 LegalEase-AI on Hugging Face Spaces**](https://huggingface.co/spaces/Bikashkh/legalease-ai)
 
 ---
 
-## 🎬 Demo GIF
+## 🎬 Demo Preview
 ![Demo](docs/demo.gif)
 
-> GIF shows: uploading PDF, generating summary, asking questions, and downloading highlighted PDF.
+> **Highlights:** Upload PDF → Summarize → Ask Questions → Download Highlighted PDF
 
 ---
 
-## 📝 Features
-- ✅ Upload and preview **PDF and TXT legal documents**
-- ✅ **Summarization** using `facebook/bart-large-cnn`
-- ✅ **Question-Answering** using `distilbert-base-cased-distilled-squad`
-- ✅ **Downloadable summary PDF**
-- ✅ **Highlighted PDF** with Q&A answers
-- ✅ **Q&A History** for reference
+## 🌟 Features
+
+| Feature | Description |
+|---------|-------------|
+| 📄 Upload Documents | Upload and preview **PDF and TXT legal documents** easily |
+| 📝 Summarization | Summarize documents using `facebook/bart-large-cnn` |
+| ❓ Q&A | Ask questions using `distilbert-base-cased-distilled-squad` |
+| 💾 Download | Save your **highlighted PDFs** and **summaries** |
+| 📚 History | Keep track of **all Q&A sessions** for reference |
 
 ---
 
 ## ⚡ How It Works
-1. Upload your legal document.
-2. Preview the content page by page (PDF) or full text (TXT).
-3. Generate a concise summary.
-4. Ask questions to extract answers from the document.
-5. Download the highlighted PDF with your Q&A results.
+
+1. **Upload Document** – Drag & drop PDF or TXT file.  
+2. **Preview Content** – Flip through PDF pages or view full text.  
+3. **Generate Summary** – AI creates a concise summary of your legal document.  
+4. **Ask Questions** – Extract precise answers from the document.  
+5. **Download Results** – Save the highlighted PDF with answers and summaries.
 
 ---
 
-## 🛠 Installation (Local)
+## 🖥 Installation (Local)
+
 ```bash
-# Clone the repo
+# 1️⃣ Clone the repository
 git clone https://github.com/kh-bikash/LegalEase-AI.git
 cd LegalEase-AI
 
-# Create virtual environment (Windows)
+# 2️⃣ Create a virtual environment (Windows)
 python -m venv .venv
 .\.venv\Scripts\activate
 
-# Create virtual environment (Linux/Mac)
+# 2️⃣ Create a virtual environment (Linux/Mac)
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Install dependencies
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-# Run locally
+# 4️⃣ Run locally
 streamlit run app.py
