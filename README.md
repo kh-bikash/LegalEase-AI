@@ -12,7 +12,7 @@
 
 ## 🚀 Live Demo
 Experience the AI in action:  
-[**🎯 LegalEase-AI on Hugging Face Spaces**](https://huggingface.co/spaces/Bikashkh/legalease-ai)
+[**🎯 LegalEase-AI on Streamlit**](https://legaleaseai.streamlit.app/)
 
 ---
 
